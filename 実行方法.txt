@@ -1,0 +1,9 @@
+ubuntuで実行したメモ。
+(1)任意の場所にpyファイル配置
+(2)/var/spool/cron/userに「crontab.text」を配置
+(3)crontab.textの中身にpyのフルパスを記載。
+(4)コマンド「crontab crontab.text」で定期的な実行を開始。
+　※crontab -r で設定をクリア。
+　　crontab -l で設定内容を確認。
+　　
+　　

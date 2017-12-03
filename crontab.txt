@@ -1,0 +1,1 @@
+*/15 * * * * python /home/twitter/TwitPriceChip.py
