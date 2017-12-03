@@ -6,3 +6,12 @@ ubuntuで実行した時のメモ。
 　※crontab -r で設定をクリア。
 　　crontab -l で設定内容を確認。
 
+※なお、事前設定としてtwitterAPIの登録が必要です。
+　「TwitPriceChip.py」の以下の部分の""部分について、
+　それぞれtwitterAPIで取得した値を入れてください。
+　
+# twitter_API
+auth = twitter.OAuth(consumer_key="",
+consumer_secret="",
+token="",
+token_secret="")
