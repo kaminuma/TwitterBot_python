@@ -1,9 +1,8 @@
-ubuntu‚ÅÀs‚µ‚½ƒƒ‚B
-(1)”CˆÓ‚ÌêŠ‚Épyƒtƒ@ƒCƒ‹”z’u
-(2)/var/spool/cron/user‚Éucrontab.textv‚ğ”z’u
-(3)crontab.text‚Ì’†g‚Épy‚Ìƒtƒ‹ƒpƒX‚ğ‹LÚB
-(4)ƒRƒ}ƒ“ƒhucrontab crontab.textv‚Å’èŠú“I‚ÈÀs‚ğŠJnB
-@¦crontab -r ‚Åİ’è‚ğƒNƒŠƒAB
-@@crontab -l ‚Åİ’è“à—e‚ğŠm”FB
-@@
-@@
+ubuntuã§å®Ÿè¡Œã—ãŸæ™‚ã®ãƒ¡ãƒ¢ã€‚
+(1)ä»»æ„ã®å ´æ‰€ã«pyãƒ•ã‚¡ã‚¤ãƒ«é…ç½®
+(2)/var/spool/cron/userã«ã€Œcrontab.textã€ã‚’é…ç½®
+(3)crontab.textã®ä¸­èº«ã«pyã®ãƒ•ãƒ«ãƒ‘ã‚¹ã‚’è¨˜è¼‰ã€‚
+(4)ã‚³ãƒãƒ³ãƒ‰ã€Œcrontab crontab.textã€ã§å®šæœŸçš„ãªå®Ÿè¡Œã‚’é–‹å§‹ã€‚
+ã€€â€»crontab -r ã§è¨­å®šã‚’ã‚¯ãƒªã‚¢ã€‚
+ã€€ã€€crontab -l ã§è¨­å®šå†…å®¹ã‚’ç¢ºèªã€‚
+
