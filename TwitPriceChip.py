@@ -1,6 +1,3 @@
-# pip install twitter
-# pip install requests
-
 import twitter
 import requests
 import json
@@ -37,9 +34,13 @@ price_mona = json_str_mona['last']
 twitText = ""
 twitText = twitText + "-BitZeny-\n"
 twitText = twitText + "  39[zny] = " + str(int(price_bitzeny * 39)) + "[jpy]" + "\n"
+twitText = twitText + "  46.49[zny] = " + str(int(price_bitzeny * 46.49)) + "[jpy]" + "\n"
+twitText = twitText + "  79.74[zny] = " + str(int(price_bitzeny * 79.74)) + "[jpy]" + "\n"
 twitText = twitText + " 114[zny] = " + str(int(price_bitzeny * 114)) + "[jpy]" + "\n"
 twitText = twitText + "-Mona-\n"
 twitText = twitText + "  39[mona] = " + str(int(price_mona * 39)) + "[jpy]" + "\n"
+twitText = twitText + "  46.49[mona] = " + str(int(price_mona * 46.49)) + "[jpy]" + "\n"
+twitText = twitText + "  79.74[mona] = " + str(int(price_mona * 79.74)) + "[jpy]" + "\n"
 twitText = twitText + " 114[mona] = " + str(int(price_mona * 114)) + "[jpy]" + "\n"
 twitText = twitText + "\n"
 twitText = twitText + " 1[mona] = " + str(int(price_mona / price_bitzeny)) + "[zny]" + "\n"
